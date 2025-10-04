@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+     
+      
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link  href="https://fonts.googleapis.com//css2? 
+	family=Poppins:wght@100;200;300;400;700 & display=swap">
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<title>contact</title>
+	<style type="text/css">
+   
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing:border-box;
+			font-family:sans-serif;
+		}
+		.contact{
+			position:relative;
+			min-height:100vh;
+			pading:50px 100px;
+			display: flex;
+			justify-content:center;
+			align-items: center;
+			flex-direction: column;
+			background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url( ta.jpg);
+	background-position: center;
+	background-size: cover;
+	backdrop-filter: blur(5px);
+		}
+.contact .content{
+max-width:800px;
+text-align:center;
+}
+.contact .content h2{
+	font-size: 36px;
+	font-weight:500;
+color: #fff;
+}
+.contact .content p{
+	font-weight: 300;
+	color: #fff;
+}
+
+.container{
+	width:80%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	margin-top:30px
+}
+.container .contactInfo{
+width: 50%;
+display: flext;
+flex-direction: column;
+	
+}
+
+.container .contactInfo .bax{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+
+
+.container .contactInfo .bax .icon{
+	min-width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+}
+
+.container .contactInfo .bax  .text{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+color: #fff;
+flex-direction: column;
+font-weight: 300;
+}
+.container .contactInfo .bax  .text h3{
+	font-weight: 500;
+	color:#f44336;
+}
+
+
+.contactForm{
+	width:40%;
+	padding:40px;
+	background:#ffffffc2;
+	backdrop-filter: blur(5px);
+}
+.contactForm h2{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+}
+
+.contactForm .inputBox {
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+
+	width: 100%;
+	padding:5px 0;
+	font-size: 16px;
+	margin:10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+
+
+.contactForm .inputBox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+
+
+
+.contactForm .inputBox  input:focus ~ span,
+.contactForm .inputBox  input:valid ~ span,
+.contactForm .inputBox  textarea:focus ~ span,
+.contactForm .inputBox  textarea:valid ~ span
+{
+	color: red;
+	font-size: 12px;
+	transform: translateY(-20px);
+
+}
+
+.contactForm .inputBox  input[type="submit"]
+{
+	width: 90px;
+	background: #f44336;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	margin-left: 20px;
+	padding: 10px;
+	font-size: 18px;
+}
+
+@media(max-width:700px){
+	.contact{
+		padding: 50px;
+	}
+	.container{
+		flex-direction: column;
+	}
+.container .contactInfo {
+	margin-bottom: 40px;
+
+}
+
+.container .contactInfo, .contactForm{
+	width: 100%;
+}
+}
+
+
+
+
+
+</style>
+</head>
+<body >
+
+
+<section class="contact" >
+	
+	<div class="content">
+	<h2>Contact Us </h2>
+ <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, <br>sed stet lorem sit clita duo justo magna dolore erat amet</p>
+</div>
+
+<div class="container">
+	<div class="contactInfo">
+	<div class="bax">
+		<div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>  </div>
+		<div class="text">
+			<h3>Adress</h3>
+			<p>4th street shahr-e-New,<br> Kabul , Afghanistan,</br> 55060</p>
+		</div>
+	</div>
+
+	<div class="bax">
+		<div class="icon"> <i class="fa fa-phone" aria-hidden="true"></i> </div>
+		<div class="text">
+			<h3>phone</h3>
+			<p>078-85-84-924</p>
+		</div>
+	</div>
+
+	<div class="bax">
+		<div class="icon"> <i class="fa fa-envelope-o"aria-hidden="true"></i> </div>
+		<div class="text">
+			<h3>Email</h3>
+			<p>afzalimarzia@gmail.com</p>
+		</div>
+	</div>
+
+</div>
+
+<div class="contactForm">
+	<form>
+		<h2>Send Message</h2>
+		<div class="inputBox">
+			<input type="text" name="" required="required">
+			<span>Full Name</span>
+		</div>
+<div class="inputBox">
+			<input type="text" name="" required="required">
+			<span>Email</span>
+		</div>
+		 <div class="inputBox">
+			<textarea required="required"></textarea>
+			<span>Type Your Comment.....</span>
+		</div>
+<div class="inputBox">
+			<input type="submit" name="" value="Send">
+				<input type="submit" name="" value="Close">
+		</div>
+   
+	</form>
+</div>
+</div>
+
+</section>
+</body>
+</html>

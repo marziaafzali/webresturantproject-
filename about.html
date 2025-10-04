@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>about us</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link  href="https://fonts.googleapis.com//css2? 
+	family=Poppins:wght@100;200;300;400;700 & display=swap">
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<style type="text/css">
+			
+			.container{
+      padding: 0px;
+			}
+			.slider-wrapper{
+      position: relative;
+      max-width:80%;
+      margin: auto; 
+			}
+			.slider{
+				display: flex;
+				aspect-ratio: 16 / 9;
+				overflow-x:hidden;
+				scroll-snap-type:x mandatory;
+				scroll-behavior:  smooth;
+				box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 1.25);
+				border-radius: 5px;
+			}
+
+			.slider img{
+				flex: 1 0 100%;
+				object-fit: cover;
+			}
+
+			.slider-nav{
+				display: flex;
+				column-gap: 1rem;
+				position: absolute;
+				bottom: 1.25rem;
+				left: 50%;
+				transform:translateX(-50%);
+				z-index: 1;
+
+			}
+
+
+			.slider-nav a {
+				width: 0.5rem;
+				height: 0.5rem;
+				border-radius: 50%;
+				background-color: #fff;
+				opacity: 0.75;
+				transition: opacity ease 250ms;
+			}
+
+			.slider-nav a:hover {
+				opacity: 1;
+			}
+			@media(max-width:700px){
+				.container{
+					width: 100%;
+				}
+			}
+			.slient{
+				flex-basis: 31%;
+		box-shadow: 10px;
+		border-radius: 10px;
+		border: 1px ;
+		background-color: white;
+		margin-bottom: 5%;
+		margin: 10px;
+		padding: 20px 12px;
+		box-sizing: border-box;
+		transition: 0.5s;
+	
+			}
+
+			
+		</style>
+</head>
+<body >
+<section class="navbar">
+	<nav>
+		<a href="#"><img src="log.png"></a>
+		<div class="nav-links" id="navLinks">
+			
+			<i class="fa fa-times"  onclick="hideMenu()"></i>
+
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="service.html">Services</a></li> 
+				<li><a href="reserve.html">Reservation</a></li>
+        <li><a href="contact.html">contact</a></li>
+         <li><a href="log in.html" class="hero-btn" style="background: #f44336;">Log in</a></li>
+
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+
+	</nav>
+	<div class="text-box">
+		<h1> About Us</h1>
+		
+		<h3 style="color: #f44336;">Flavorful Experience,Sweet Moments </h3>
+		<br><a href="" class="hero-btn">BOOK A TABLE NOW</a>
+	</div>
+</section>
+
+
+
+<center><h1 style="color:white;">About Us</h1></center>
+ 
+	</div>
+
+
+<section class="container">
+	<div class="slider-wrapper">
+		<div class="slider">
+
+			<img id="slide-1" src="te.jpg">
+	    	<img id="slide-2" src="new pec.jpg">
+	    
+	    			<img id="slide-4" src="th.jpg" >
+	    			<img id="slide-5" src="door-1.jpg" >
+	    			<img id="slide-6" src="te5.jpg" >
+	    			<img id="slide-7" src="te6.jpg" >
+		</div>
+		<div class="slider-nav">
+			<a href="#slide-1"></a>
+			<a href="#slide-2"></a>
+			
+			<a href="#slide-4"></a>
+			<a href="#slide-5"></a>
+			<a href="#slide-6"></a>
+			<a href="#slide-7"></a>
+		</div>
+	</div>
+</section>
+
+
+
+
+<!------------------------campus---------------->
+<section class="compe" >
+
+ 
+    <div class="row">
+	<div class="about-col">
+	<h2 style="color:black;">Our Journey to Sweet Success A Tale od Floue and Sugar</h2>
+	<p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+	<table>
+		<tr>
+	<td>
+			<h4 style="font-size: 25px; color: #f44336;">15</h4>
+	 <h6 style="font-size:15px; color:black;" >Years of Experience</h6></td> 
+			
+			<td>
+	        <h4 style="font-size: 25px; color: #f44336;margin-left: 60px;">50</h4>
+			<h6 style="font-size:15px; margin-left: 60px; color: black;">popular Master Chefs</h6></td></tr></table><br>
+	<a href="about.html " class="hero-btn red-btn"> Read more</a>
+</div>
+<div class="about-col">
+<img src="door-3.png">
+	
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------course--------------------->
+<section class="course">
+	<h1 style="color:black;">Enjoy Our Delicious Meal</h1>
+	<p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+	<div class="row">
+
+		<div class="course-col">
+			<h3>Master Chefs</h3>
+			<img src="re4.jpg" id="img">
+<p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+
+		</div>
+
+		<div class="course-col">
+			<h3>Quality Food</h3>
+			<img src="re5.jpg" id="img">
+<p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+    </div>
+
+		<div class="course-col">
+			<h3>Online Order</h3>
+			<img src="order.jpg " id="img">
+<p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>	
+	</div>
+
+			<div class="course-col  ">
+							<h3>24/7 Service</h3>
+							<img src="serv.jpg" id="img">
+    <p> Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+</div>
+	</div>
+</section>
+<!-----------chefs--------->
+<section class="Chefs">
+		<p style="color:red;">------Team members------</p>
+
+	<h1 style="color:black;">Our Master Chefs</h1>
+
+	<div class="row">
+		<div class="Chefs-col">
+			<img src="team-1.jpg">
+			<h3>Mujeeb</h3>
+			<p>Chef</p>
+		</div>
+		<div class="Chefs-col">
+			<img src="team-2.jpg">
+			<h3>Muzamil</h3>
+			<p>Kitchen Manager</p>
+		</div>
+		<div class="Chefs-col">
+			<img src="team-3.jpg">
+			<h3>Murtaza</h3>
+			<p>Pastry Chef</p>
+		</div>
+		<div class="Chefs-col">
+			<img src="team-4.jpg">
+			<h3>Mohammad</h3>
+			<p>Dishwasher</p>
+		</div>
+	</div>
+ 
+</section>
+
+
+<section class="course">
+	<p style="color:red;">-----Testimonial------</p>
+		<h1 style="color:black;">Our Clients Say!!! </h1>
+	<div class="row" style="background:#fff3f3;">
+	
+		<div class="slient">
+  <i class="fa fa-quote-left fa-2x text-primary mb-3" style="color:#f44336;"></i>
+  <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diamDiam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+  <div style="display:flex;">
+  		<img src="testimonial-2.jpg" style="border-radius: 50%; width: 50px; height: 50px; margin:10px;">
+  	<div>
+  		<h3 style="margin-left: 10px; ">Majeed</h3>
+  		<h5 style="margin-left: 10px; color: gray;">Profession</h5>
+  	</div>
+  </div>
+		</div>
+
+		<div class="slient">
+  <i class="fa fa-quote-left fa-2x text-primary mb-3" style="color:#f44336;"></i>
+  <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diamDiam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+  <div style="display:flex;">
+  		<img src="testimonial-1.jpg" style="border-radius: 50%; width: 50px; height: 50px; margin:10px;">
+  	<div>
+  		<h3 style="margin-left: 10px">Neel</h3>
+  		<h5 style="margin-left: 10px; color: gray;">Profession</h5>
+  	</div>
+  </div>
+		</div>
+
+	<div class="slient">
+  <i class="fa fa-quote-left fa-2x text-primary mb-3" style="color:#f44336;"></i>
+  <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diamDiam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+  <div style="display:flex;">
+  		<img src="testimonial-4.jpg" style="border-radius: 50%; width: 50px; height: 50px; margin:10px;">
+  	<div>
+  		<h3 style="margin-left: 10px; ">Mary</h3>
+  		<h5 style="margin-left: 10px; color: gray;">Profession</h5>
+  	</div>
+  </div>
+		</div>
+		<div class="slient">
+  <i class="fa fa-quote-left fa-2x text-primary mb-3" style="color:#f44336;"></i>
+  <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diamDiam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+  <div style="display:flex;">
+  		<img src="testimonial-3.jpg" style="border-radius: 50%; width: 50px; height: 50px; margin:10px;">
+  	<div>
+  		<h3 style="margin-left: 10px; ">Eman Khan</h3>
+  		<h5 style="margin-left: 10px; color: gray;">Profession</h5>
+  	</div>
+  </div>
+		</div>
+</section>
+
+
+<!------------footer---------->
+<section class="footer" style="width: 100%; margin-top:30px;">
+	<a href="about.html" style="text-decoration:none;"><h1>About Us</h1></a>
+	<p id="par">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, <br>sed stet lorem sit clita duo justo magna dolore erat amet</p>
+	<div class="icons">
+		<i class="fa fa-facebook" ></i>
+		<i class="fa fa-twitter" ></i>
+		<i class="fa fa-instagram" ></i>
+		<i class="fa fa-linkedin" ></i>
+	</div>
+	<p id="par"> Tast Our 
+		<i class="fa fa-heart-o"></i>
+	New Recipe</p>
+</section>
+
+<!---javascript for toggle menu---->
+<script >
+	var navLinks = document.getElementById("navLinks");
+	function showMenu() {
+		navLinks.style.right="0";
+	}
+	function hideMenu() {
+		navLinks.style.right="-200px";
+	}
+</script>
+</body>
+</html>
